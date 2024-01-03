@@ -13,7 +13,7 @@ function updateProductList(productList) {
   
     productList.forEach((product) => {
         productosHTML += `<div class="card bg-secondary mb-3 mx-4 my-4" style="max-width: 20rem;">
-        <div class="card-header bg-primary text-white">code: ${product.code}</div>
+        <div class="card-headerrt">code: ${product.code}</div>
         <div class="card-body">
             <h4 class="card-title text-white">${product.title}</h4>
             <p class="card-text">
